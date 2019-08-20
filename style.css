@@ -1,0 +1,136 @@
+/* remove default margin and padding from body */
+body {
+    background: #ffffff;
+    color: #5f5e5e;
+    font-family: "Verdana", Times, serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+
+ h1 {
+    color: grey;
+  }
+
+  p {
+    color: black;
+    font: 12px"Verdana", Times, serif;
+    font-weight: 200;
+  }
+
+  /* set map, body, and html to 100% of the screen size */
+  #map {
+    height: 800px;
+    width : 1150px ;
+  }
+  .legend {
+    line-height: 18px;
+    color: #555;
+  }
+  .legend {
+    color: #555;
+    padding-left: 10px;
+    padding-right: 30px;
+    font: 12px "Verdana", Times, serif;
+    font-weight: bold;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    height: 75px;
+  }
+  .legend ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 40px;
+    position: absolute;
+    /* clear: both; */
+  }
+  .legend li {
+    /* display: inline-block; */
+    width: 30px;
+    height: 22px;
+  }
+  h4 {
+    font-size: 10px;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  #labels-text {
+    position: absolute;
+    left: 45px;
+    line-height: 22px;
+  }
+
+  /* Selecting elements by ID */
+  
+  #header {
+    background: #ffffff;
+    font-family: "Verdana", Times, serif;
+    font-weight: bold;
+    color: grey;
+    font-size: 52px
+  }
+  
+  #geo {
+    font-size: 32px;
+  }
+
+
+
+#barGraph{
+margin-top: 10px;
+}
+
+#graph_prod {
+margin-top: 10px;
+}
+
+  
+  h5{
+    margin-left: 150px;
+  }
+  
+  
+  
+  select {
+    display: block;
+    margin: 0 auto;
+    margin-top: -27px
+    }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  #btn_oil {
+    position: absolute;
+    right: 182px;
+    top: 363px;
+    background-color: #239A3B; 
+    color: white;
+    text-align: center;
+    
+  }
+  
+  #btn_gas {
+    background-color: #f44336; 
+    margin-top: -12px;
+    color: white;
+    text-align: center;
+   
+  }
+
+  div.dataTables_wrapper {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+div.dataTables_wrapper.dataTables_length { vertical-align:middle; }
+
+
